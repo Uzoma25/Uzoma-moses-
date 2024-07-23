@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        .bio, .resume, .projects, .hobbies, .contact {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .secret-message {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            color: #ccc;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .whatsapp-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .whatsapp-button:hover {
+            background-color: #1DA851;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Personal Webpage</h1>
+</header>
+
+<div class="container">
+    <div class="section bio">
+        <h2>Bio</h2>
+        <p>Hello! I'm [Your Name], a passionate individual with interests in [Your Interests]. Welcome to my personal webpage where you can learn more about me and my work.</p>
+    </div>
+
+    <div class="section resume">
+        <h2>Resume</h2>
+        <p>[Include a brief overview of your professional background and achievements here]</p>
+    </div>
+
+    <div class="section projects">
+        <h2>Projects</h2>
+        <p>[Briefly describe some of the projects you've worked on]</p>
+    </div>
+
+    <div class="section hobbies">
+        <h2>Hobbies</h2>
+        <p>In my free time, I enjoy [Your Hobbies]. These activities help me stay balanced and motivated.</p>
+    </div>
+
+    <div class="section contact">
+        <h2>Contact</h2>
+        <p>You can reach me at my email: [Your Email]</p>
+        <a class="whatsapp-button" href="https://wa.me/447367670525" target="_blank">Contact me on WhatsApp</a>
+    </div>
+
+    <div class="secret-message">
+        <p>This is a secret message section. Customize it with any hidden details or special information.</p>
+    </div>
+</div>
+
+</body>
+</html>
